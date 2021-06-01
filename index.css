@@ -1,0 +1,359 @@
+:root {
+  --darkblue: #0A1327;
+  --orange: #E43F5A;
+  --gray: #ECECEC;
+  --darkgrey : #6B778D;
+  --dark : #F2A365;
+  --black : #1B1B2F;
+
+  --roboto : 'Roboto', sans-serif;
+  --roboto-mono: 'Roboto Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color:var(--darkblue);
+    color: var(--darkgrey);
+}
+
+.navigation{
+    margin : 0px
+}
+
+nav{
+    color: var(--orange);
+    font-family: var(--roboto-mono);
+}
+
+nav > ul > ol > a > span {
+    color : var(--orange);
+}
+
+nav > ul > ol > a{
+    color: var(--gray);
+}
+
+nav > ul > ol > a:hover{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+div.introduction{
+    height: 40rem;
+    position: relative;
+}
+
+#about{
+    min-height: 40rem;
+}
+
+#work{
+    min-height: 20rem;
+}
+
+#project{
+    min-height: 40rem;
+}
+
+#contact{
+    min-height: 5rem;
+}
+
+div.introduction > div.content {
+   margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%)
+}
+
+div.introduction > div.content > div.hi {
+    color: var(--orange);
+    font-family: var(--roboto-mono);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1;
+}
+
+div.introduction > div.content > .name {
+    color: var(--gray);
+    font-family: var(--roboto);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+div.introduction > div.content > div.description {
+    color: var(--darkgrey);
+    font-family: var(--roboto);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+}
+
+div.introduction > div.content > div {
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--roboto);
+    font-size: 30px;
+    color: white;
+    margin-right: 10em;
+    font-weight: 900;
+}
+
+.title-center {
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.title:after {
+    content: "";
+    flex: 5 1;
+    border-bottom: 1px solid var(--gray);
+    margin: auto;
+    margin-left: 20px;
+}
+
+.title > span {
+    font-family: var(--roboto-mono);
+    font-size: 15px;
+    align-self:center;
+    margin-right: 10px;
+    color: var(--orange);
+}
+
+.title-center > span {
+    font-family: var(--roboto-mono);
+    font-size: 15px;
+    align-self:center;
+    margin-right: 10px;
+    color: var(--orange);
+}
+
+div.about > div > div > div.description > span{
+    color:var(--orange);
+}
+
+.photo{
+    border : 1px solid var(--orange)
+}
+
+.triangle{
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid var(--orange);
+}
+
+
+.companies > .company {
+    padding-left: 10px;
+}
+
+.companies > .company{
+    font-family: var(--roboto-mono);
+    font-size: 13px;
+    border-left: 1px solid var(--darkgrey);
+}
+
+.companies > .company:hover{
+    cursor: pointer;
+    color: var(--orange);
+    border-left: 1px solid var(--orange);
+    background-color: var(--black);
+}
+
+.company > a:hover {
+    color : var(--orange)
+}
+
+.company > a {
+    color : var(--darkgrey);
+    text-decoration: none;
+}
+
+.company-active{
+    color : var(--orange);
+    border-left: 1px solid var(--orange) !important;
+}
+
+.company-active > a {
+    color : var(--orange);
+    font-family: var(--roboto-mono);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.position{
+    color: white;
+    font-family: var(--roboto-mono);
+}
+
+.position > span {
+    color: var(--orange);
+}
+
+.work > div > .description{
+    margin-top: 10px;
+}
+
+.section{
+    margin-top: 100px;
+}
+
+.resume {
+    color : white;
+    text-align: center;
+}
+
+.projects > .project-items > .label {
+    font-family: var(--roboto);
+    color: var(--darkgrey);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.project {
+    font-size: 15px;
+}
+
+.project > .tech{
+    font-family: var(--roboto-mono);
+    color:  var(--darkgrey);
+    font-size: 13px;
+}
+
+.project > .year {
+    font-family: var(--roboto);
+    color: var(--orange);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.project > .name {
+    font-family: var(--roboto);
+    color: var(--darkgrey);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer{
+    font-family: var(--roboto-mono);
+    font-size: 15px;
+    color : white
+}
+
+.bar{
+    width: 30px;
+    border-bottom : 3px solid var(--orange);
+}
+
+.sidebar{
+    border : 2px dashed var(--darkblue)
+}
+
+.sidebar:hover{
+    border : 2px dashed var(--orange)
+}
+
+
+
+#side-menu{
+    height: 100%;
+    width: 0;
+    position : fixed;
+    z-index : 1;
+    top : 0;
+    right : 0;
+    background-color: #162447;
+    overflow-x :hidden;
+    transition : 0.5s;
+}
+
+#side-menu > div > div > .item > a{
+    font-family: var(--roboto-mono);
+    font-size: 25px;
+    color: var(--gray);
+    font-weight: bolder;
+}
+
+#side-menu > div > div > .item > a > span{
+    font-family: var(--roboto-mono);
+    font-size: 15px;
+    color: var(--orange);
+    margin-right: 10px;
+}
+
+#side-menu > div > div > .item > a:active{
+  text-decoration: none;
+}
+
+
+.slash{
+    width: 30px;
+    border-bottom: 3px solid var(--orange);
+    color : var(--orange);
+    transform: rotate(45deg);
+    
+}
+
+.back-slash{
+    margin-top: -3px;
+    width: 30px;
+    border-bottom: 3px solid var(--orange);
+    color : var(--orange);
+    transform: rotate(-45deg);
+    
+}
+
+.celeste{
+    font-family: var(--roboto-mono);
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 875px) {
+  .navigation {
+    display: none !important;
+  }
+
+  .sidebar{
+      display: inline-block !important;
+  }
+
+  .companies > .company{
+      border-left: none;
+  }
+
+  .title{
+      margin-right: 0 !important;
+  }
+
+}
+
+.hobby{
+    font-family: var(--roboto-mono);
+    color:var(--darkgrey);
+    font-size : 13px
+}
+
+.icon{
+    color : var(--darkgrey);
+    text-decoration: none;
+}
+
+.icon:hover{
+    color : var(--orange)
+}

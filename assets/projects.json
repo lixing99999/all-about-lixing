@@ -1,0 +1,86 @@
+[
+  {
+    "year": 2020,
+    "name": "Performance Module",
+    "at": "Talentcloud.ai",
+    "built_with": "Hapi.js, Nuxt.js, Laravel, Mysql",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "name": "Padini Designer App",
+    "at": "Nexplatform",
+    "built_with": "Asp.net MVC, React Native",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "name": "EIG B2B ecommerce website",
+    "at": "Nexplatform",
+    "built_with": "Asp.net MVC",
+    "link": ""
+  },
+  {
+    "year": 2018,
+    "name": "Own brand CMS portal",
+    "at": "Efox",
+    "built_with": "PHP Json",
+    "link": ""
+  },
+  {
+    "year": 2018,
+    "name": "Document Management System",
+    "at": "Efox",
+    "built_with": ".Net C# Mysql PHP Mysql",
+    "link": ""
+  },
+  {
+    "year": 2018,
+    "name": "Online currency booking platform",
+    "at": "Efox",
+    "built_with": ".Net C# Mysql PHP Mysql",
+    "link": ""
+  },
+  {
+    "year": 2020,
+    "name": "What to cook",
+    "at": "Personal",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "link": ""
+  },
+  {
+    "year": 2020,
+    "name": "Messing around with Tensorflow.js",
+    "at": "Personal",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "link": ""
+  },
+  {
+    "year": 2020,
+    "name": "Socket dinosaurs",
+    "at": "Personal",
+    "built_with": "Socket.io, Javascript",
+    "link": ""
+  },
+  {
+    "year": 2017,
+    "name": "Fire Department System",
+    "at": "College",
+    "built_with": ".Net C#",
+    "link": ""
+  },
+  {
+    "year": 2017,
+    "name": "Kindergarten Payment Management System",
+    "at": "College",
+    "built_with": "Asp.Net MVC, C#",
+    "link": ""
+  },
+  {
+    "year": 2019,
+    "name": "Food Sharing Platform",
+    "at": "College",
+    "built_with": "React Native, Asp.Net Core",
+    "link": ""
+  }
+]

@@ -31,7 +31,7 @@ function addProjects(projects){
             <div class="year" style="min-width:100px">${projects[i].year}</div>
             <div class="name" style="min-width:320px">${projects[i].name}</div>
             <div class="at" style="min-width:150px">${projects[i].at}</div>
-            <div class="tech text-wrap" style="min-width:200px">
+            <div class="tech text-wrap" style="min-width:200px; max-width:200px">
                 <div>${projects[i].built_with}</div>
             </div>
             <div class="link align-self-center" style="min-width:100px">

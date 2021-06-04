@@ -8,6 +8,8 @@
 
   --roboto : 'Roboto', sans-serif;
   --roboto-mono: 'Roboto Mono', monospace;
+
+  --cursor-size : 64px
 }
 
 html {
@@ -357,3 +359,4 @@ div.about > div > div > div.description > span{
 .icon:hover{
     color : var(--orange)
 }
+

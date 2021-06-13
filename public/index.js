@@ -28,13 +28,13 @@ function addProjects(projects){
     for(let i = 0; i < projects.length; i++){
         $('.project-items').append(`
         <div class="project d-flex mt-4">
-            <div class="year col-md-1">${projects[i].year}</div>
-            <div class="name col-md">${projects[i].name}</div>
-            <div class="at col-md-2" >${projects[i].at}</div>
-            <div class="tech text-wrap col-md">
+            <div class="year col-md-1"  style="min-width:80px">${projects[i].year}</div>
+            <div class="name col-md-4"  style="min-width:150px">${projects[i].name}</div>
+            <div class="at col-md-2"   style="min-width:150px">${projects[i].at}</div>
+            <div class="tech text-wrap col-md-4"  style="min-width:150px">
                 <div>${projects[i].built_with}</div>
             </div>
-            <div class="link align-self-center col-md-1 text-center">
+            <div class="link align-self-center col-md-1"  style="min-width:50px">
                 <a href="${projects[i].link}"><i class="fa fa-external-link"></i></a>
             </div>
         </div>`)

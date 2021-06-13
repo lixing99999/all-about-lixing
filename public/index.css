@@ -19,7 +19,7 @@ html {
 body{
     background-color:var(--darkblue);
     color: var(--darkgrey);
-    cursor:none;
+    /* cursor:none; */
 }
 
 .navigation{
@@ -368,7 +368,7 @@ div.about > div > div > div.description > span{
 }
 
 
-.cursor-1{
+/* .cursor-1{
     width : 48px;
     height: 48px;
     border: 3px solid var(--orange);
@@ -381,11 +381,11 @@ div.about > div > div > div.description > span{
 
 .cursor-1:hover{
     cursor: auto;
-}
+} */
 
-a, ol{
+/* a, ol{
     cursor: none !important;
-}
+} */
 
 .work-project{
     color : var(--gray);

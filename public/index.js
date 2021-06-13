@@ -18,8 +18,7 @@ function getProjects(){
         return response.json();
     }).then(data => 
         {
-            console.log(data, 'josa');
-            addProjects(data)
+             addProjects(_.orderBy(data, ['year'], ['desc']))
         }
     );
         
@@ -27,14 +26,16 @@ function getProjects(){
 
 function addProjects(projects){
     for(let i = 0; i < projects.length; i++){
-        $('.project-items').append(`<div class="project d-flex mt-2">
-            <div class="year" style="min-width:100px">${projects[i].year}</div>
-            <div class="name" style="min-width:320px">${projects[i].name}</div>
-            <div class="at" style="min-width:150px">${projects[i].at}</div>
-            <div class="tech text-wrap" style="min-width:200px; max-width:200px">
+        $('.project-items').append(`
+        <div class="project d-flex mt-4">
+            <div class="year col-md-1">${projects[i].year}</div>
+            <div class="name col-md">${projects[i].name}</div>
+            <div class="at col-md-2" >${projects[i].at}</div>
+            <div class="tech text-wrap col-md">
                 <div>${projects[i].built_with}</div>
             </div>
-            <div class="link align-self-center" style="min-width:100px">
+            <div class="link align-self-center col-md-1 text-center">
+                <a href="${projects[i].link}"><i class="fa fa-external-link"></i></a>
             </div>
         </div>`)
     }

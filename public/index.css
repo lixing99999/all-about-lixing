@@ -19,6 +19,7 @@ html {
 body{
     background-color:var(--darkblue);
     color: var(--darkgrey);
+    cursor:none;
 }
 
 .navigation{
@@ -44,24 +45,24 @@ nav > ul > ol > a:hover{
 }
 
 div.introduction{
-    height: 40rem;
+    min-height: 40rem;
     position: relative;
 }
 
 #about{
-    min-height: 40rem;
+    min-height: 25rem;
 }
 
 #work{
-    min-height: 20rem;
+    min-height: 25rem;
 }
 
 #project{
-    min-height: 40rem;
+    min-height: 25rem;
 }
 
 #contact{
-    min-height: 5rem;
+    min-height: 25rem;
 }
 
 div.introduction > div.content {
@@ -199,6 +200,7 @@ div.about > div > div > div.description > span{
 }
 
 
+
 .position{
     color: white;
     font-family: var(--roboto-mono);
@@ -247,9 +249,14 @@ div.about > div > div > div.description > span{
 
 .project > .name {
     font-family: var(--roboto);
-    color: var(--darkgrey);
+    color: var(--gray);
     font-size: 15px;
     font-weight: bolder;
+}
+
+.project > .link > a {
+    text-decoration: none;
+    color : var(--darkgray);
 }
 
 .footer{
@@ -347,7 +354,7 @@ div.about > div > div > div.description > span{
 
 .hobby{
     font-family: var(--roboto-mono);
-    color:var(--darkgrey);
+    color:var(--gray);
     font-size : 13px
 }
 
@@ -360,3 +367,27 @@ div.about > div > div > div.description > span{
     color : var(--orange)
 }
 
+
+.cursor-1{
+    width : 48px;
+    height: 48px;
+    border: 3px solid var(--orange);
+    margin : 10px;
+    position: absolute;
+    pointer-events: none;
+    cursor: auto;
+    z-index: 999;
+}
+
+.cursor-1:hover{
+    cursor: auto;
+}
+
+a, ol{
+    cursor: none !important;
+}
+
+.work-project{
+    color : var(--gray);
+    font-family : var(--roboto-mono)
+}

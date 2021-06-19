@@ -1,8 +1,11 @@
 
+// side-menu
 function handleCollapseSideMenu(open){
   document.getElementById('side-menu').style.width = open ? "350px" : "0"
 }
 
+
+// company
 function handleSelectCompany(name){
     if(name){
         $('.company').removeClass('company-active')
@@ -13,6 +16,7 @@ function handleSelectCompany(name){
     }
 }
 
+// project
 function getProjects(){
    fetch("./assets/projects.json").then(response => {
         return response.json();
@@ -35,18 +39,36 @@ function addProjects(projects){
                 <div>${projects[i].built_with}</div>
             </div>
             <div class="link align-self-center col-md-1"  style="min-width:50px">
-                <a href="${projects[i].link}"><i class="fa fa-external-link"></i></a>
+            <a href="${projects[i].link}"><i class="${projects[i].link ? 'fa fa-external-link' : ''}"></i></a>
             </div>
         </div>`)
     }
 }
 
-getProjects();
+// project-image
+function getProjectImage(){
+    fetch("./assets/project-images.json").then(response => {
+        return response.json();
+    }).then(data => 
+        {
+            addProjectImages(data)
+        }
+    );
+}
+
+function addProjectImages(images){
+      for(let i = 0; i < images.length; i++){
+        $('.project-images').append(`<img class="m-2" style="max-height:246px; max-width:264px" src='./assets/project-images/${images[i]}' />`)
+    }
+}
 
 
+// cursor
 const cursor = document.querySelector('.cursor-1');
 
 document.addEventListener('mousemove', e => {
     cursor.setAttribute("style", "top:" + (e.pageY - 30)+ "px; left:" +(e.pageX - 30)+"px")
 })
 
+getProjects();
+getProjectImage();

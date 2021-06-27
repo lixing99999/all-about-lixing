@@ -1,0 +1,44 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body{
+    display: flex;
+    height: 150vh;
+}
+
+#center{
+    position: relative;
+    top : 30%
+}
+
+#trigger1{
+    position: fixed;
+    top : 30%;
+    left :25%;
+}
+
+/* .statue-image{
+    border : 1px solid black
+} */
+
+.flower1-image{
+    position: relative;
+    bottom : -130px;
+    right: -200px;
+    /* border: 1px solid black; */
+    opacity: 1;
+}
+
+.flower2-image{
+    position: relative;
+    bottom : -150px;
+    left: -100px;
+    /* border: 1px solid black; */
+    opacity: 1;
+}

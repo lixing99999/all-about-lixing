@@ -1,0 +1,28 @@
+:root {
+  --darkblue: #0A1327;
+  --orange: #E43F5A;
+  --gray: #ECECEC;
+  --darkgrey : #6B778D;
+  --dark : #F2A365;
+  --black : #1B1B2F;
+
+  --roboto : 'Roboto', sans-serif;
+  --roboto-mono: 'Roboto Mono', monospace;
+
+  --cursor-size : 64px
+}
+
+.description{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: var(--roboto-mono);
+    color :var(--gray)
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.logo > a{
+    color: var(--orange);
+}

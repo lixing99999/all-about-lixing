@@ -95,14 +95,14 @@
     "name": "Fire Department System",
     "at": "College",
     "built_with": ".Net C#",
-    "link": "http://127.0.0.1:5500/public/some-work.html"
+    "link": "/some-work.html"
   },
   {
     "year": 2017,
     "name": "Kindergarten Payment Management System",
     "at": "College",
     "built_with": "Asp.Net MVC, C#, MSSQL",
-    "link": "http://127.0.0.1:5500/public/some-work.html"
+    "link": "/some-work.html"
   },
   {
     "year": 2019,

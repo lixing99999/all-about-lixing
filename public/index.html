@@ -13,8 +13,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/index.css">
         <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
     </head>
     <body class="p-4">
+        <script>
+             // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyC32EEzdqHxsGpqCjcEmw1FA1gaoDLHTbo",
+                authDomain: "all-about-lixing.firebaseapp.com",
+                databaseURL: "https://all-about-lixing.firebaseio.com",
+                projectId: "all-about-lixing",
+                messagingSenderId: "443924789144",
+                appId: "1:443924789144:web:fb4a0f4f5276e2aef8dded",
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+
         <nav class="d-flex justify-content-between">
             <div class="w-100 align-self-center p-3">All About Li Xing</div>
             <ul class="navigation d-flex align-self-center">
@@ -204,11 +223,6 @@
                 </div>
             </div>
             
-
-            <!-- <div id="project-image" class="section">
-                <div class="project-images row justify-content-center"></div>
-            </div> -->
-
             <div id="contact" class="mt-5 align-items-center d-flex justify-content-center">
                 <div>
                     <div class="title-center"><span>04.</span>Contact<span></span></div>

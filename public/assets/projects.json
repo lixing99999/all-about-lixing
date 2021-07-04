@@ -4,7 +4,7 @@
     "name": "Idea Go",
     "at": "Personal",
     "built_with": "Hapi.js, MongoDb, Nuxt.js, Socket.io",
-    "link": ""
+    "link": "https://lixing99999-idea-go-default.layer0.link"
   },
   {
     "year": 2020,
@@ -59,35 +59,35 @@
     "year": 2020,
     "name": "What to cook",
     "at": "Personal",
-    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js, Heroku",
     "link": "https://wwhat-to-cook.herokuapp.com"
   },
   {
     "year": 2020,
     "name": "Object Detection - Tensorflow.js",
     "at": "Personal",
-    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js, Heroku",
     "link": "https://find-everything.herokuapp.com/"
   },
   {
     "year": 2020,
     "name": "Interact Timer with Snap - Tensorflow.js",
     "at": "Personal",
-    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js, Heroku",
     "link": "https://control-everything.herokuapp.com/"
   },
   {
     "year": 2020,
     "name": "Hand Post Detection Tensorflow.js",
     "at": "Personal",
-    "built_with": "Nuxt.js, Vue.js, Tensorflow.js",
+    "built_with": "Nuxt.js, Vue.js, Tensorflow.js, Heroku",
     "link": "https://touch-everything.herokuapp.com/"
   },
   {
     "year": 2020,
     "name": "Socket dinosaurs",
     "at": "Personal",
-    "built_with": "Socket.io, Javascript",
+    "built_with": "Socket.io, Javascript, Netlify",
     "link": "https://elastic-murdock-c10420.netlify.app/"
   },
   {

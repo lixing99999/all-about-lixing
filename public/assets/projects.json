@@ -3,7 +3,7 @@
     "year": 2021,
     "name": "Idea Go",
     "at": "Personal",
-    "built_with": "Hapi.js, MongoDb, Nuxt.js, Socket.io",
+    "built_with": "Hapi.js, MongoDb, Nuxt.js, Socket.io, Heroku, Layer0",
     "link": "https://lixing99999-idea-go-default.layer0.link"
   },
   {

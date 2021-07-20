@@ -58,7 +58,11 @@ function getProjectImage(){
 
 function addProjectImages(images){
       for(let i = 0; i < images.length; i++){
-        $('.project-images').append(`<img class="m-2" style="max-height:246px; max-width:264px" src='./assets/project-images/${images[i]}' />`)
+        $('.project-images').append(`
+         <a href="./assets/project-images/${images[i]}">
+            <img class="m-2" style="max-height:246px; max-width:264px" src='./assets/project-images/${images[i]}' />
+         <a href="img/img1.jpg">
+        `)
     }
 }
 

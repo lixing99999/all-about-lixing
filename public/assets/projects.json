@@ -1,6 +1,20 @@
 [
   {
     "year": 2021,
+    "name": "Revamp My Kindergarten Payment Management System",
+    "at": "Personal",
+    "built_with": "Asp.Net MVC, C#, MSSQL",
+    "link": ""
+  },
+  {
+    "year": 2021,
+    "name": "Barky - More Than Dog Bark Detector",
+    "at": "Personal",
+    "built_with": "Nuxt.js, Layer0, Tensorflow.js, ml5, Teachable Machine",
+    "link": "https://lixing99999-dog-bark-detection-default.layer0.link"
+  },
+  {
+    "year": 2021,
     "name": "Idea Go",
     "at": "Personal",
     "built_with": "Hapi.js, MongoDb, Nuxt.js, Socket.io, Heroku, Layer0",

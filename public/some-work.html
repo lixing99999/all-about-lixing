@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="./assets/css/index.css">
         <link rel="stylesheet" href="./assets/css/some-work.css">
         <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.0-beta.1/lightgallery.min.js" integrity="sha512-oNnqDvhsML/dIa8o8ultPzFeNOaHmQDjzzADtxsOXY8DeD8iaf6Kn/kBSXL/IGv9/GPMc9Kxy+9YPillo2yA1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.0-beta.1/css/lightgallery.min.css" integrity="sha512-ShUKQmljhTR5WiAIb5afZNvW2htTJfyZ2d65SYzQ0lladX55FD2UZlgYaSvYmfobBvC4VRy+e/iorrf/5PcJNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body class="p-4">
         <nav class="d-flex justify-content-between">
@@ -59,7 +61,7 @@
         <div class="container">
             <div class="description">Some work that I did few years ago(college), but lazy to host haha.</div>
             <div id="project-image" class="section">
-                <div class="project-images row justify-content-center"></div>
+                <div id="project-images" class="project-images row justify-content-center"></div>
             </div>
 
             <div class="footer py-4 mt-5 text-center">
@@ -67,5 +69,13 @@
             </div>
         </div>
         <script src="index.js" ></script>
+        <script type="text/javascript">
+        require(['./lightgallery.js'], function() {
+            require(["./lg-zoom.js", "./lg-thumbnail.js", "lg-pager.js"], function(){
+                lightGallery(document.getElementById('project-images')); 
+            });
+        });  
+            lightGallery(document.getElementById('project-images')); 
+        </script>
     </body>
 </html>

@@ -26,6 +26,10 @@ body{
     margin : 0px
 }
 
+.navigation > ol > a{
+    text-decoration: none;
+}
+
 nav{
     color: var(--orange);
     font-family: var(--roboto-mono);

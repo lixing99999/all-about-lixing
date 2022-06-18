@@ -364,6 +364,7 @@ div.about > div > div > div.description > span{
 .icon{
     color : var(--darkgrey);
     text-decoration: none;
+    margin: 10px;
 }
 
 .icon:hover{
